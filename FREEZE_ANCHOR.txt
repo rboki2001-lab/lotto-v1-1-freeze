@@ -1,0 +1,18 @@
+LOTTO 6-aus-45 – v1.1 Prediction Freeze
+
+Protocol: LOTTO_V1_1
+Freeze UTC: 2026-10-11T08:17:32Z
+freeze_vienna_date: 2026-10-11
+
+V1_1_PREDICTION_FREEZE_MANIFEST.json SHA-256:
+235d484edd9e33ee9c86a19d40874c269b5bf3d583367cc739587d5f140f6186
+
+v1_1_package 2.zip SHA-256:
+32ca08e9d3a3a29730a596cd06957dce0c09ca948232df7c0516fe50b3a2f1b8
+
+Holdout start rule:
+Only the first official, fully provenance-validated draw with draw date
+strictly AFTER freeze_vienna_date = 2026-10-11 is eligible.
+
+M25, validator, source rules, model parameters and thresholds are frozen.
+No real v1.1 holdout draw had been scored when this anchor was published.
